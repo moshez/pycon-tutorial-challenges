@@ -1,0 +1,62 @@
+Acknowledgement of Country
+==========================
+
+SF Bay Area, the ancestral home of the Muwekma Ohlone
+
+Agenda
+======
+
+4m
+
+* In-person conferences
+* Typically one or two days before
+* Cost: ~$500+
+* Time: ~3hr
+
+Aside: Good and Bad Diversity
+=============================
+
+2m
+
+* Good diversity: Ethnic, gender, orientation, religious, etc.
+* Bad diversity: experience, sub-speciality, infrastructure, goals
+
+Tech challenges
+==========================
+
+5m
+
+* OS Diversity
+* Installing Python
+* Dependencies
+* Instructions before hand
+* Day of setup
+
+Human challenges
+===========================
+
+5m
+
+* No time to know students
+* Knowledge diversity
+* Experience diversity
+* Outcome diversity
+* Sub-speciality diversity
+
+Economics
+====================
+
+3m
+
+* Participants pay $500
+* Instructors get $1000 pre-tax
+* Investment: tutorial (3hr -- but typically, full day effectively)
+* Investment: prep (3hr practice talk, 2hr comms beforehand, ~10hrs of writing/research)
+* $50/hr to give so-so experience
+
+Summary
+=======
+
+* High cost
+* Low rewards
+* One shot
