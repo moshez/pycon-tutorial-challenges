@@ -1,0 +1,246 @@
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{fancyvrb}
+
+\title{Challenges of Giving Tutorials at PyCon}
+\author{Moshe Zadka -- https://cobordism.com}
+\date{2020}
+
+\begin{document}
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Acknowledgement of Country}
+
+San Francisco Bay Area
+
+Ancestral home of the Muweka Ohlone
+\end{frame}
+
+\begin{frame}
+\frametitle{Conference Tutorials}
+
+\begin{itemize}
+\item In-person conferences
+\item Just before main talks
+\item Cost: \$500+
+\item Time: around 3 hours
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Diversity is good}
+
+\begin{itemize}
+\item Ethnic
+\item Race
+\item Gender
+\item Orientation
+\item Religion
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Diversity is not so good...}
+
+\begin{itemize}
+\item Experience
+\item Sub-speciality
+\item Knowledge
+\item Infrastructure
+\item Goals
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{OS Diversity}
+
+\begin{itemize}
+\item Mac OS X: Which version
+\item Windows: Version + Home/Pro/other exotic + Managed
+\item Linux: There's alsways someone with Gentoo
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Installing Python}
+
+\begin{itemize}
+\item No, no Python 2
+\item App Store?
+\item Installer from Python.org?
+\item Pyenv
+\item Conda forge
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Installing Python Redux}
+
+Installing software on modern desktop operating systems is impossible.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Setting up Python}
+
+\begin{itemize}
+\item Set up a virtual env...
+\item ...unless you're on conda
+\item Instructions differ per OS/Python installer
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Setting up environment}
+
+\begin{itemize}
+\item Activate virtuale environment and \verb|pip install -r requirements|
+      \pause
+\item Except there's no binary wheel for this package for Linux.
+      \pause
+\item Here's how you install Python binary package build deps
+      \pause
+\item ...on Ubuntu...
+      \pause
+\item ...or Fedora
+      \pause
+\item This other package does not have a windows wheel
+      \pause
+\item ...here's how you install the free version of Visual Studio
+      \pause
+\item This other package does not have a Mac OS X wheel
+      \pause
+\item ...OK to install XCode you need to click yes on the EULA
+      \pause
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Instructions Beforehand}
+
+\begin{itemize}
+\item <50% of the class will do them
+      \pause
+\item Ever wanted to debug visual studio on Windows 10 Home
+      without SP1 not building Twisted over e-mail?
+      \pause
+\item ...No?
+      \pause
+\item Too bad, because you just got an e-mail about it
+      \pause
+\item Hooray, another e-mail because your first guess didn't work.
+      Also, guy who paid \$500 is now mad at you.
+      \pause
+\item Your second guess didn't work?
+      Get ready to spend 2 hours on Googling.
+      Now guy who paid \$500 has cost you 2 extra hours,
+      and is really mad at you.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Installing in class}
+
+\begin{itemize}
+\item Asking a volunteer to TA something you get paid for feels icky
+      \pause
+\item ...but those $1000 you get go really fast if you pay a TA
+      \pause
+\item ...and debugging Windows 10 Home without SP1 not building Twisted
+      is not much more fun in person
+      \pause
+\item And also someone is missing class, so they're mad.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Machine abstractions}
+
+\begin{frame}
+\item Using Docker? Now you have two problems
+\item VirtualBox? Three problems
+\item Ever tried to download a 1GB image over conference wifi?
+\end{frame}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{No time to know students}
+
+Not even their names!
+\end{frame}
+
+\begin{frame}
+\frametitle{Knowledge diversity}
+
+"Intermediate" is not a thing.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Experience diversity}
+
+Ops? Debugging? Algorithms?
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Outcome diversity}
+
+\begin{itemize}
+\item Spend time playing with new tech
+\item Job skills
+\item Interview skills
+\item Building portfolio
+\item Dunno, job paid for me.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Sub-speciality diversity}
+
+A data scientist, site reliability engineer,
+and a web developer walk into a tutorial...
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Economics}
+
+\begin{itemize}
+\item Price: $500
+\item Paid: $1000
+\item Investment: giving tutorial (3hr, but often kills full work day)
+\item Investment: prep (3hr practice talk, 2hr+ comms beforehand, 10hrs writing and research)
+\item $50/hr to give so-so experience
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Summary}
+
+\begin{itemize}
+
+\item High cost
+\item Low reward
+\item One shot
+\end{itemize}
+
+\end{frame}
+
+\end{document}
